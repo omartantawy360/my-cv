@@ -1,0 +1,105 @@
+/* style.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  background: white;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+header .info {
+  flex-grow: 1;
+}
+
+header h1 {
+  color: #2a4d9b;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header h1 span {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #5b7dc4;
+}
+
+header img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 1rem;
+}
+
+.contact p {
+  margin: 0.3rem 0;
+}
+
+.contact i {
+  margin-right: 0.5rem;
+  color: #5b7dc4;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+section h2 {
+  background: #e9ebf5;
+  color: #2a4d9b;
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.skills > div {
+  flex: 1 1 300px;
+}
+
+a {
+  text-decoration: none;
+  color: #2a4d9b;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #2a4d9b;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.download-btn i {
+  margin-right: 0.5rem;
+}
